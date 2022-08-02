@@ -1,0 +1,31 @@
+/* @import because this website hates optimization */
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap");
+
+body {
+    font-family: "Comic Neue", "Comic Sans MS", cursive;
+    background: #010101;
+    color: #fefefe;
+}
+
+.sideways {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+
+    margin-top: 20rem;
+}
+
+.sideways * {
+    transform: rotate(90deg);
+    margin: 10rem;
+}
+
+.myeyes {
+    background: yellowgreen;
+    color: wheat;
+}
+
+br {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
