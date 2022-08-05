@@ -1,0 +1,56 @@
+# Test setting all variables
+❤️ 👈 1
+🧡 👈 2
+💛 👈 3
+💚 👈 4
+💙 👈 5
+💜 👈 6
+
+# Test operations
+❤️ ➕ 5
+🧡 ➖ 1
+💛 ✖️ 9
+💚 ➗ 2
+
+# Weird operations (wrap, int div)
+💙 ➖ 6
+💜 ➗ 4
+
+# Test printing all variables
+🎙 ❤️
+🎙 🧡
+🎙 💛
+🎙 💚
+🎙 💙
+🎙 💜
+
+# Test speaking all variables
+📢 ❤️
+📢 🧡
+📢 💛
+📢 💚
+📢 💙
+📢 💜
+
+# Test looping over variables and numbers
+
+# Prints 3 times
+🗿 2
+    🎙 🧡
+🗿
+
+# Prints from variable
+🗿 ❤️
+    🎙 ❤️
+🗿
+
+# Infinite loop
+# 🗿 🧡
+#     🧡 ➕ 1
+# 🗿
+
+# Stop program
+🛑
+
+# Should not be printed
+🎙 💙

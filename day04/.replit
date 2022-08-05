@@ -1,0 +1,20 @@
+run = "cargo run"
+entrypoint = "src/main.rs"
+language = "nix"
+hidden = [
+    ".cargo",
+    "Cargo.lock",
+    "target"
+]
+
+[packager]
+language = "rust"
+
+[packager.features]
+# packageSearch = true
+
+[nix]
+channel = "stable-21_11"
+
+[env]
+CARGO_HOME = "${HOME}/${REPL_SLUG}/.cargo"
