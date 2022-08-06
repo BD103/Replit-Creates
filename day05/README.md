@@ -1,42 +1,21 @@
-# Nuxt 3 Minimal Starter
+# Day 5
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+> "Make something random"
 
-## Setup
+Today, instead of making something random, I instead created the tools to find some things that are random.
 
-Make sure to install the dependencies:
+Welcome to Find Something Random, a NuxtJS + TailwindCSS website that showcases a bunch of the amazing repls created for week 1 of [Replit Creates](https://creates.replit.com). While these certainly aren't all of the great repls, they are a few. A random repl is selected each time you refresh the website.
 
-```bash
-# yarn
-yarn install
+## Thoughts on Nuxt and Vue
 
-# npm
-npm install
+This is the second project I've ever made with NuxtJS / VueJS, and the first that I've ever completed. Overall, I'm quite impressed. Though I don't like Javascript as a language, I do appreciate the power of Vue templates, TailwindCSS's easy design, and Node's portability.
 
-# pnpm
-pnpm install --shamefully-hoist
-```
+While I probably would have rather made this is Rust, it wouldn't have fit. Rust is made for systems programming, while JS is designed for the web.
 
-## Development Server
+---
 
-Start the development server on http://localhost:3000
+Either way, this concludes week 1 of Replit Creates. I'm very happy with what I've done so far, and plan on finishing / rewriting Day 3 over the weekend. There was also a show-and-tell livestream today, which was quite epic. I've struggled in the past showcasing my code. Today was different, and I got a lot of great feedback because of it. This has encouraged me to continue with Replit Creates, and continue to interact with the Replit community.
 
-```bash
-npm run dev
-```
+I'm having a lot of fun! See you next monday,
 
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
+~BD103
