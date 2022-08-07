@@ -1,0 +1,4 @@
+run = "node .output/server/index.mjs"
+
+[nix]
+channel = "stable-21_11"
