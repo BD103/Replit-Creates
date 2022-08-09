@@ -1,6 +1,9 @@
 <template>
+    <NuxtPage />
 </template>
 
-<script setup>
-import "./assets/css/main.css";
-</script>
+<style>
+body {
+    @apply text-gray-600;
+}
+</style>
